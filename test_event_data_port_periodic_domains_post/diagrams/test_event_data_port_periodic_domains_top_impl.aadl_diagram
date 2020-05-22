@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="6e1351d6-dc5c-4394-a99d-6ca5889753a8" manual="true">
+    <element uuid="ee9b0001-2bb5-4619-a077-8241f9db0954" manual="true">
+      <element uuid="d4ea95e2-213d-482f-a2e3-e8011c4b5f79" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>deployment_properties::actual_processor_binding</seg>
+          <seg>287a17fe-8668-4ddd-b2b2-26c4db45a50a</seg>
+        </bo>
+        <bendpoints>
+          <point x="294.0" y="92.5"/>
+          <point x="300.0" y="92.5"/>
+          <point x="300.0" y="162.5"/>
+          <point x="306.0" y="162.5"/>
+        </bendpoints>
+      </element>
+      <element uuid="7dd4803d-7996-4c15-adff-16708138d509" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>dst_thread</seg>
+        </bo>
+        <position x="12.0" y="38.0"/>
+        <size width="125.0" height="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>dst_process</seg>
+      </bo>
+      <position x="129.0" y="38.0"/>
+      <size width="149.0" height="85.0"/>
+    </element>
+    <element uuid="287a17fe-8668-4ddd-b2b2-26c4db45a50a" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>proc</seg>
+      </bo>
+      <position x="298.0" y="141.0"/>
+      <size width="88.0" height="40.0"/>
+    </element>
+    <element uuid="726b1cda-0ec5-4b66-afbe-95e19113ad77" manual="true">
+      <element uuid="56dbe88e-1e98-4f9b-a4ab-07a88d625477" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>deployment_properties::actual_processor_binding</seg>
+          <seg>287a17fe-8668-4ddd-b2b2-26c4db45a50a</seg>
+        </bo>
+        <bendpoints>
+          <point x="294.0" y="280.0"/>
+          <point x="300.0" y="280.0"/>
+          <point x="300.0" y="182.5"/>
+          <point x="306.0" y="182.5"/>
+        </bendpoints>
+      </element>
+      <element uuid="021ed0a4-5dab-4e33-8604-9898e12578ed" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>dummy_transformer_thread</seg>
+        </bo>
+        <position x="12.0" y="93.0"/>
+        <size width="242.0" height="35.0"/>
+      </element>
+      <element uuid="c09e4eb7-f591-40ca-a0e6-97fb1c08efb8" manual="true">
+        <element uuid="63e96caf-19c9-4213-8e67-e9c517019965" manual="true">
+          <bo>
+            <seg>pvg</seg>
+            <seg>deployment_properties::actual_processor_binding</seg>
+            <seg>28fae9c9-7da5-4e04-a9bc-49a0488b3e28</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>src_thread</seg>
+        </bo>
+        <position x="12.0" y="38.0"/>
+        <size width="125.0" height="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>src_process</seg>
+      </bo>
+      <position x="12.0" y="198.0"/>
+      <size width="266.0" height="140.0"/>
+    </element>
+    <element uuid="28fae9c9-7da5-4e04-a9bc-49a0488b3e28" manual="true">
+      <element uuid="130086c2-5f67-4216-a46f-17817755ed94" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>deployment_properties::actual_processor_binding</seg>
+          <seg>287a17fe-8668-4ddd-b2b2-26c4db45a50a</seg>
+        </bo>
+        <bendpoints>
+          <point x="294.0" y="172.5"/>
+          <point x="306.0" y="172.5"/>
+        </bendpoints>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>vm</seg>
+      </bo>
+      <position x="198.0" y="143.0"/>
+      <size width="80.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>top.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="398.0" height="350.0"/>
+  </element>
+  <config type="processorBinding" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties>
+      <property>deployment_properties::actual_processor_binding</property>
+    </enabledAadlProperties>
+    <context>
+      <seg>classifier</seg>
+      <seg>test_event_data_port_periodic_domains::top.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
